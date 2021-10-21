@@ -6,6 +6,8 @@ This is a clone project of [word counter website](https://wordcounter.net/). My 
 
 [Link to Live Project](https://wordcounterclone.netlify.app/)
 
+![word counter home page](/public/word-counter.png)
+
 ## User Experience (UX)
 
 The user has been introduced with different button events to transform the text as per his/her likings.
@@ -52,17 +54,17 @@ As a returning user:
 
 ### Languages, Frameworks, Libraries & Programs
 
-- **HTML5/JSX** - build up layout and content of the application.
-- **Tailwindcss** - for adding custom styling.
-- **React.js** - to add functionalities throughout the application.
+- [HTML5/JSX](https://reactjs.org/docs/introducing-jsx.html) - build up layout and content of the application.
+- [Tailwindcss](https://tailwindcss.com/) - for adding custom styling.
+- [React.js](https://reactjs.org/) - to add functionalities throughout the application.
   - Hooks used:
     - useState hook
     - useEffect hook
     - useRef hook
-- **Visual Studio Code** - the code editor being used to build the project.
-- **Chrome DevTools** - used heavily for debugging during development process.
-- **Git** - the Git feature in VS Code was used for version control and push to github.
-- **Github** - Github is used to store project's code remotely.
+- [Visual Studio Code](https://code.visualstudio.com/) - the code editor being used to build the project.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used heavily for debugging during development process.
+- [Git](https://git-scm.com/) - the Git feature in VS Code was used for version control and push to github.
+- [Github](https://github.com/) - Github is used to store project's code remotely.
 
 ## Deployment
 
