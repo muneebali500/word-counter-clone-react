@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Word Counter Clone - Fully Responsive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This is a clone project of [word counter website](https://wordcounter.net/). My purpose of creating this project is to showcase and improve my React skills using React hooks. The project demonstrates information about the content user writes in a word editor. The user can change case of the words to Sentence Case, Title Case, Lower Case and Upper Case. The User can find and replace words, download content in MS Word file etc. Also the project provides information about number of words, sentences, paragraphs etc. in a text content.
 
-In the project directory, you can run:
+[Link to Live Project](https://wordcounterclone.netlify.app/)
 
-### `npm start`
+## User Experience (UX)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The user has been introduced with different button events to transform the text as per his/her likings.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### User Stories
 
-### `npm test`
+As a user:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- I want to understand what the website is about and the purpose of it.
+- I want to change the case of the text into Uppercase, Lowercase, Title Case and Sentence Case.
+- I want to remove any unwanted spaces in my text.
+- I want to save the text content into some database.
+- I want to delete the text from text area at one click.
+- I want to find and replace all the words from my text content
+- I want to perform spell check of my text content
+- I want to download the text content
+- I want to know the number of words, characters, sentences, paragraphs my text content contains. Additionally, I want to know the reading and speaking time of the text content.
 
-### `npm run build`
+As a returning user:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- I want to be able to continue where I left last visit.
+- I want to be able to reset everything from last visit in order to write new text content.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## User Interface (UI)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Features
 
-### `npm run eject`
+- There are two pages to navigate around. One is Home page and another is Contact Page
+- Home page has a Header, Editor Section, Rules section and a Footer
+- Header has Logo and two navigating buttons: Home and Contact
+- Editor section has two sides. Editor is on left side and Word count summary on right side
+- Editor side is divided into three parts.
+  - Top part updates the words and characters written by the user in editor area.
+  - The middle part has buttons events. Every button perform a specific functions when clicked. The names of buttons are very descriptive.
+  - The third is the main editor where user writes content
+- The right side of the editor provides info about the text content i.e; words, characters, sentences, paragraphs, reading time and speaking time
+- After the editor section, there is rules section which defines what function every button performs.
+- After rules section, there is a footer and that ends the Home page.
+- The second page is Contact Us page. It has same header as the Home page has and the next and only section it has, has a Contact Form and an embeded Google Map.
+- In the Contact Form user needs to provide info about his/her name, email and message.
+- Google Map is on the right side, which displays the address and direction of the office
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technologies Used
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Languages, Frameworks, Libraries & Programs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **HTML5/JSX** - build up layout and content of the application.
+- **Tailwindcss** - for adding custom styling.
+- **React.js** - to add functionalities throughout the application.
+  - Hooks used:
+    - useState hook
+    - useEffect hook
+    - useRef hook
+- **Visual Studio Code** - the code editor being used to build the project.
+- **Chrome DevTools** - used heavily for debugging during development process.
+- **Git** - the Git feature in VS Code was used for version control and push to github.
+- **Github** - Github is used to store project's code remotely.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Deployment
 
-## Learn More
+#### Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project was developed using VS Code editor and its integrated version control feature to commit gits, which are then pushed to GitHub in order to store the codes remotely.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### GitHub Pages
 
-### Code Splitting
+The project was deployed to GitHub Pages following these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Log in to GitHub and navigate to this project's repository: [word-counter-clone](muneebali500/word-counter-clone-react)
+2. Under the navigation menu of the repository, locate and click the button "Code" which shows different options to clone or download
+3. To clone this repository using HTTPS, copy the link under "Clone with HTTPS"
+4. Open Git terminal
+5. If needed, change the current workspace to the location where you want the repository to be cloned
+6. Type git clone and paste in the URL copied in step 3 and press Enter
 
-### Analyzing the Bundle Size
+#### Forking the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Log in to GitHub and navigate to this project's repository: [word-counter-clone](muneebali500/word-counter-clone-react)
+2. Just above the navigation menu of the repository (above the Settings button), locate the Fork button
+3. The original copy of the repository is now copied on your GitHub account which allows you to view and/or work on the codes without affecting the original work
 
-### Making a Progressive Web App
+### Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The [wordcounter](https://wordcounterclone.netlify.app/) website for the idea and basic understanding of the rules of different button events.
