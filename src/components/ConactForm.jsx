@@ -20,12 +20,12 @@ export default function ConactForm() {
 
   return (
     <section className="w-full md:w-3/5">
-      <h1 className="py-3 mt-6 w-full text-center rounded-t-sm text-white bg-indigo-500 text-3xl">
+      <h1 className="py-3 w-full text-center rounded-t-sm text-white bg-indigo-500 text-3xl">
         Contact Us
       </h1>
       <form
         onSubmit={handleSubmit}
-        className="w-full py-3 px-6 border rounded-b-sm border-indigo-500"
+        className="w-full mb-6 py-3 px-6 border rounded-b-sm border-indigo-500 md:mb-0"
       >
         <input
           ref={nameRef}
