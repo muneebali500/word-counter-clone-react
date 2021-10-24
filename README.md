@@ -65,6 +65,7 @@ As a returning user:
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) - used heavily for debugging during development process.
 - [Git](https://git-scm.com/) - the Git feature in VS Code was used for version control and push to github.
 - [Github](https://github.com/) - Github is used to store project's code remotely.
+- [Netlify](https://www.netlify.com/) - for deploying the website.
 
 ## Deployment
 
