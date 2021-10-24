@@ -76,12 +76,15 @@ The project was developed using VS Code editor and its integrated version contro
 
 The project was deployed to GitHub Pages following these steps:
 
-1. Log in to GitHub and navigate to this project's repository: [word-counter-clone](muneebali500/word-counter-clone-react)
-2. Under the navigation menu of the repository, locate and click the button "Code" which shows different options to clone or download
-3. To clone this repository using HTTPS, copy the link under "Clone with HTTPS"
-4. Open Git terminal
-5. If needed, change the current workspace to the location where you want the repository to be cloned
-6. Type git clone and paste in the URL copied in step 3 and press Enter
+1. On the navbar, hit the plus button, drop down option will appear. Select "new repository" option
+2. On the "create a new repository" page, enter repository name in the "Repository name" box and hit "create repository" button at end
+3. Create a new repository on the command line/VS code terminal in the root of the project folder using the following command lines.
+   - git init
+   - git add .
+   - git commit -m "write your comment here within quotes"
+   - git branch -M main 
+   - git remote add origin {enter url of your respository here without brackets}
+   - git push -u origin main
 
 #### Forking the repository
 
