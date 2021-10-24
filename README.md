@@ -54,7 +54,7 @@ As a returning user:
 
 ### Languages, Frameworks, Libraries & Programs
 
-- [HTML5/JSX](https://reactjs.org/docs/introducing-jsx.html) - build up layout and content of the application.
+- [JSX](https://reactjs.org/docs/introducing-jsx.html) - build up layout and content of the application.
 - [Tailwindcss](https://tailwindcss.com/) - for adding custom styling.
 - [React.js](https://reactjs.org/) - to add functionalities throughout the application.
   - Hooks used:
