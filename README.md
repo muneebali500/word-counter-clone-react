@@ -12,7 +12,7 @@ This is a clone project of [word counter website](https://wordcounter.net/). My 
 
 The user has been introduced with different button events to transform the text as per his/her likings.
 
-#### User Stories
+### User Stories
 
 As a user:
 
