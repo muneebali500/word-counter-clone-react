@@ -84,4 +84,4 @@ The project was deployed to [Netlify](https://www.netlify.com/)
 
 ### Credits
 
-The [wordcounter](https://wordcounterclone.netlify.app/) website for the idea and basic understanding of the rules of different button events.
+The [wordcounter](https://wordcounter.net/) website for the idea and basic understanding of the rules of different button events.
