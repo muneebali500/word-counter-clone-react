@@ -1,15 +1,14 @@
 import WordEditor from "../components/WordEditor";
-import Header from "../components/Header";
 import Rules from "../components/Rules";
-import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 export default function home() {
   return (
-    <>
-      <Header />
-      <WordEditor />
-      <Rules />
-      <Footer />
-    </>
+    <Layout>
+      <main className="flex-1">
+        <WordEditor />
+        <Rules />
+      </main>
+    </Layout>
   );
 }

@@ -87,7 +87,7 @@ export default function WordEditor() {
   return (
     <main className="px-2 py-6 md:px-5 lg:px-20 md:flex md:gap-2">
       <section className="border rounded lg:flex-1">
-        <h1 className="py-4 pl-3 text-4xl border-b-2 bg-indigo-500 text-white">
+        <h1 className="py-4 pl-3 text-3xl sm:text-4xl border-b-2 bg-indigo-500 text-white">
           {totalWords(textArea)} words {textArea.length} characters
         </h1>
 
@@ -111,7 +111,6 @@ export default function WordEditor() {
             findAndReplaceStatus={findAndReplaceStatus}
           />
           <button>
-            {" "}
             <a
               role="button"
               className="hover:bg-blue-500 hover:text-white mb-1 text-black text-sm font-normal py-1 px-2 rounded border-2"

@@ -41,7 +41,7 @@ export default function ConactForm() {
           className={inputStyle}
           type="email"
           placeholder="Enter Your Email"
-          requierd
+          required
         />
 
         <textarea
